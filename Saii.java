@@ -1,7 +1,13 @@
 public class Saii{
 	public static void main( String[] args ) {
-	System.out.print( " sai manikanta" );
-	System.out.println( " tadikonda " );
+
+	 //print :- does not add any new line.
+
+	System.out.print( "sai manikanta" );		
+
+	 //println :- println adds new line after print text on console.
+
+	System.out.println( " tadikonda");	
 	}
   }
 
