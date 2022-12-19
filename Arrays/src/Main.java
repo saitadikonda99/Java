@@ -1,4 +1,4 @@
-public class Main {
+	public class Main {
     public static void main(String[] args) {
         // Q: store a roll number
         int k = 35;
