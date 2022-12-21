@@ -16,8 +16,7 @@ public class Array{
         }
 
         // print the array
-        for( int k=0; k<arr.length; k++ ) {
-            System.out.print( Arrays.toString(arr) );
-        }
+        System.out.print( Arrays.toString(arr) );
     }
 }
+
