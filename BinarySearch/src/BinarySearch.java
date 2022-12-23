@@ -6,7 +6,7 @@ public class BinarySearch {
         int[] arr = new int[10];
         for( int k=0; k<arr.length; k++ ) {
             arr[k] = in.nextInt();
-        }
+         }
         System.out.print("Enter the element to search: ");
         int target = in.nextInt();
         int ans = BinarySearch( arr , target );
