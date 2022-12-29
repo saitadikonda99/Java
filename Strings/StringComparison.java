@@ -20,7 +20,7 @@ public class StringComparison {
 
          // it's don't care of objects it only checks the value of two strings
 
-         System.out.println(k1.equals(s1));
+         System.out.println(k1.equals(s1));  // true
 
      }
  }
