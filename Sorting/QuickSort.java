@@ -28,7 +28,7 @@ public class QuickSort {
         while( start <= end ) {
 
             // also a reason , why it won't swaped if it is already sorted
-            while( arr[start] < pivot ) {
+hikbn            while( arr[start] < pivot ) {
                 start++;
             }
             while( arr[end] > pivot ) {

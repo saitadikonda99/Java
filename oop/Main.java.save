@@ -1,0 +1,14 @@
+// oops concepts in java
+
+public class Main {
+	public static void main( String[] args ) {
+		// store 5 students roll numbers 
+		int[] roll = new int[5];
+		
+		// store 5 students names
+		String[] name = new String[5];
+
+		// store 5 student marks 
+		float[] marks = new marks[5];
+		
+	
