@@ -2,7 +2,7 @@
 // Quick sort in java
 
 import java.util.Arrays;
-public class QuickSort {
+ublic class QuickSort {
     public static void main( String[] args ) {
 
         // let's say array size is 5
