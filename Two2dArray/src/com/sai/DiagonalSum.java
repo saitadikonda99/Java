@@ -1,7 +1,5 @@
 package com.sai;
 
-import java.util.ArrayList;
-
 public class DiagonalSum {
 
         public static void main(String[] args) {
@@ -14,7 +12,7 @@ public class DiagonalSum {
             int ans = diagonalSum(mat);
             System.out.println(ans);
         }
-        ArrayList<Integer> arr = new ArrayList<>(5);
+
 
         static int diagonalSum(int[][] mat) {
 

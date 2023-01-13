@@ -12,7 +12,6 @@ public class Main {
     }
     static boolean searchMatrix(int[][] matrix, int target) {
 
-
         // let's take row as 0
         // col as matrix[0].length -1
         int row = 0;
@@ -30,20 +29,20 @@ public class Main {
             }
             else if( matrix[row][col] > target ) {
                 // if the target is less than the matrix elements
-                // it means we can eleminate that column
-                // because we known the given matrix is sorted
+                // it means we can eliminate that column
+                // because we know the given matrix is sorted
                 // col--
                 col--;
             }
             else {
                 // if the target is greater than the matrix elements
-                // it means we can eleminate that row
-                // because we known the given matrix is sorted
+                // it means we can eliminate that row
+                // because we know the given matrix is sorted
                 // row++
                 row++;
             }
         }
-        // if we didn't found the element in the given matrix
+        // if we didn't find the element in the given matrix
         // simply return false
         return false;
     }
