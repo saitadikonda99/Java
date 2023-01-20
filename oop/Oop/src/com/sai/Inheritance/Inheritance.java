@@ -1,7 +1,7 @@
-package com.sai;
+package com.sai.Inheritance;
 
 
-public class Inheritance extends Code {
+public class Inheritance extends com.sai.Inheritance.Code {
 
         public Inheritance(String name , int age , int salary) {
             super(name , age, salary);

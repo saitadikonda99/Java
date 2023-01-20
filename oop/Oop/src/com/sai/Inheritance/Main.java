@@ -1,4 +1,4 @@
-package com.sai;
+package com.sai.Inheritance;
 
 public class Main {
     public static void main(String[] args) {
@@ -10,7 +10,7 @@ public class Main {
 //        System.out.println(harini.name+ " " + harini.age+ " " + harini.salary);
 //
 
-        Inheritance sai = new Inheritance( "kusuma" , 18 , 99999999 );
+        com.sai.Inheritance.Inheritance sai = new com.sai.Inheritance.Inheritance( "kusuma" , 18 , 99999999 );
 
         System.out.println(sai.name + " " + sai.age + " " + sai.salary);
 

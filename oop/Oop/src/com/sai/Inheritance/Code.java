@@ -1,4 +1,4 @@
-package com.sai;
+package com.sai.Inheritance;
 
 public class Code {
         String name;
