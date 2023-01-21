@@ -2,7 +2,7 @@
 // Quick sort in java
 
 import java.util.Arrays;
-ublic class QuickSort {
+public class QuickSort {
     public static void main( String[] args ) {
 
         // let's say array size is 5
@@ -28,7 +28,7 @@ ublic class QuickSort {
         while( start <= end ) {
 
             // also a reason , why it won't swaped if it is already sorted
-hikbn            while( arr[start] < pivot ) {
+        while( arr[start] < pivot ) {
                 start++;
             }
             while( arr[end] > pivot ) {
