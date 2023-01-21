@@ -9,12 +9,7 @@ public class Main {
 
         car.Brand();
         car1.Brand();
-        S
-        System.out.println(java.util.Arrays.toString());
-        String name = "kusuma";
-        System.out.println();
-         name.charAt(0);
 
         }
     }
-}
+
