@@ -7,5 +7,7 @@ public class Main {
 
         sai.career ();
         sirisha.career ();
+
+        sai.heyy ();
     }
 }
