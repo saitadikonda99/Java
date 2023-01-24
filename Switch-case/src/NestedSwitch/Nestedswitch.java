@@ -22,7 +22,7 @@ public class Nestedswitch {
                     default -> System.out.println("Enter the correct department ");
                 }
             }
-            default -> System.out.println("Enter the correct id ");
+            	    default -> System.out.println("Enter the correct id ");
             }
         }
     }
