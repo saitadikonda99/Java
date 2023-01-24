@@ -8,9 +8,10 @@ public class Main {
 //        System.out.println(sai.name + " " + sai.age + " " + sai.salary);
 //        System.out.println();
 //        System.out.println(harini.name+ " " + harini.age+ " " + harini.salary);
-//
 
-        com.sai.Inheritance.Inheritance sai = new com.sai.Inheritance.Inheritance( "kusuma" , 18 , 99999999 );
+
+        Inheritance sai;
+        sai = new Inheritance( "kusuma" , 18 , 99999999 );
 
         System.out.println(sai.name + " " + sai.age + " " + sai.salary);
 

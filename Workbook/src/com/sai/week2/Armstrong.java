@@ -1,4 +1,4 @@
-package week2.PostLab;
+package com.sai.week2;
 import java.util.Scanner;
 public class Armstrong {
 
