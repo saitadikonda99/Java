@@ -18,7 +18,7 @@ public class Armstrong {
         for( int k=100; k<=n; k++ ) {
             if(isArmstrong ( k )) {
                 System.out.print( k + " " );
-            }
+            } 
         }
 
     }

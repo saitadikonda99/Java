@@ -11,7 +11,7 @@ public class Main {
 
 
         Inheritance sai;
-        sai = new Inheritance( "kusuma" , 18 , 99999999 );
+        sai = new Inheritance( "kusuma" , 18 , 909999999 );
 
         System.out.println(sai.name + " " + sai.age + " " + sai.salary);
 
