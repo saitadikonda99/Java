@@ -5,4 +5,4 @@ Java is a multi-platform, object-oriented, and network-centric language that can
 
 
 
-https://www.edureka.co/blog/wp-content/uploads/2018/01/2-2.png
+![heyyy](https://www.edureka.co/blog/wp-content/uploads/2018/01/2-2.png)
