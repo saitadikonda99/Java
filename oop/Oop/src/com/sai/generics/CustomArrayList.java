@@ -7,6 +7,7 @@ public class CustomArrayList {
     private int size = 0;
 
     public CustomArrayList() {
+
         this.data = new int[DEFAULT_SIZE];
     }
     public void add( int num ) {
@@ -48,6 +49,8 @@ public class CustomArrayList {
     public static void main(String[] args) {
         CustomArrayList list = new CustomArrayList();
         list.add(5);
+        list.add(99);
+        list.remove ();
         list.set(2, 13);
 
 //        for( int k=1; k<15; k++ ) {
