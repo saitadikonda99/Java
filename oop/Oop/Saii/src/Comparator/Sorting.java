@@ -8,12 +8,11 @@ public class Sorting implements Comparator<Student> {
       if( o1.age > o2.age ) {
           return 1;
       }
-      else {
+      else if( o1.age < o2.age){
           return -1;
       }
-//      else {
-//        return (o1.age).compareTo(o2.age);
-//      }
-
+    else {
+        return 0;
+      }
     }
 }
