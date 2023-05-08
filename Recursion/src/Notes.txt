@@ -1,0 +1,9 @@
+
+very-very IMP
+
+1. while the function is not finished executing
+   it will remain in stack.
+
+2. when a function finishes executing it is removed
+   from stack, and the flow of the is restored to
+   where the function was called.
