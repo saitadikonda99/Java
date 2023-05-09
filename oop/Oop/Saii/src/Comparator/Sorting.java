@@ -13,6 +13,6 @@ public class Sorting implements Comparator<Student> {
       }
     else {
         return 0;
-      }
+       }
     }
 }

@@ -1,2 +1,0 @@
-sai,18,male,31-03-2023,5-04-2023,5,Deluxe Room
-sampath,19,male,30-03-2023,1-04-2023,5,Deluxe Room
