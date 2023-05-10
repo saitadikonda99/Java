@@ -1,13 +1,16 @@
 public class RevNum {
-    public static void main(String[] args) {
-        int ans = rev(513);
-        System.out.println (ans);
-    }
-    static int rev( int n ){
+    static int sum = 0;
+    static void rev1( int n ){
         // base condition
         if( n==0 ) {
-            return 0;
+            return;
         }
-        return ( ( n % 10 ) ) +  ( rev( n/10 ) * 10 );
+        int rem = n % 10;
+        sum = sum * 10 + rem;
+        rev1 ( n / 10 );
+    }
+    public static void main(String[] args) {
+        rev1( 1234 );
+        System.out.println (sum);
     }
 }
