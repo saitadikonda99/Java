@@ -5,8 +5,11 @@ public class ProDigit {
     }
     static int pro( int n ) {
         // base condition
-        if( n==0 ) {
-            return 1;
+//        if( n==0 ) {
+//            return 1;
+//        }
+        if( n%10 == 0 ) {
+            return n;
         }
         return ( n%10 ) * pro( n/10 );
     }
